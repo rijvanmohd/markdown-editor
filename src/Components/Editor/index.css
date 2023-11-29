@@ -1,0 +1,42 @@
+.editor-container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.editor {
+    display: block;
+    background-color: #4C4E52;
+    width: 90%;
+    height: 90%;
+    border: 2px solid var(--black);
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 20px;
+    overflow-y: scroll;
+}
+  
+.editor-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0px;
+    width: 90%;
+}
+
+.header-title {
+    margin: auto;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.public-DraftStyleDefault-block {
+    background-color: var(--black);
+    color:var(--white);
+    margin-bottom: 10px;
+    padding: 5px;
+}
